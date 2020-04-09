@@ -1,4 +1,4 @@
-# Tools
+# Scripts
 Repository for random scripts I write
 
 create_table.py
