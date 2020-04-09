@@ -1,5 +1,5 @@
 # Tools
-Repository for random tools I write
+Repository for random scripts I write
 
 create_table.py
 ---------------
@@ -16,3 +16,7 @@ This script pulls the Microsoft patch Tuesday Security updates for the current m
 usage: 
 
 I currently have this configured to run via cron every day at 4pm. If the date it runs equals the second tuesday of the month, it will automatically submit the jira ticket containing the security updates for the current month.
+
+vpn.sh
+---------------
+Randomly selects a config file from a list of vpn configs, verifies there is not currently a tunnel set up, then spawns the openvpn process and enters your username/password.
